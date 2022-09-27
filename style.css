@@ -108,4 +108,32 @@ main,#card{
       float:left;
     }
 } 
+@media screen and (max-width:400px)
+{
+  main, header, footer{
+    width: 100%;
+    padding: 0 0;
+   }
+
+  iframe{
+  width: 500px;
+  }
+
+   .pizza{
+    width: 0%;
+     padding: 0 0;
+    }/* resolução 600px sem a pizza pq com a pizza tava atrapalhando*/
+
+    .logo{ 
+      width: 135%;
+      height: 300px;
+    }
+
+    #nav_link{
+      display: flex; /*display fica na lateral*/
+      justify-content: space-between; 
+      float:left;
+    }
+  
+}
 
